@@ -1,0 +1,8 @@
+[package]
+name = "hermit-mcve"
+version = "0.1.0"
+edition = "2021"
+
+[target.'cfg(target_os = "hermit")'.dependencies.hermit]
+version = "0.9.1"
+default-features = false
